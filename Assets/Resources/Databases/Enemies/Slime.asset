@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759c7c8a1c60cc84c9473ec6a5992349, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: 
+  enemyName: Slime
+  worldSpeed: 2.5
+  spawnRate: 5
+  spawnGround: Dirt
+  hp: 50
+  attck: 10
+  defense: 10
+  spped: 1.5
+  attckRange: 0.3
+  attckInterval: 3
+  attckChargeTime: 0.3
+  attackSound: {fileID: 8300000, guid: 3323d705961bd814caa7a1c2d0760925, type: 3}
+  preAttackSound: {fileID: 8300000, guid: 1b5eb7cb3c9fe394cb5adef12f63e942, type: 3}
+  footstepSound: {fileID: 8300000, guid: cac0b996c457cf74abf39492ad4c5c08, type: 3}
